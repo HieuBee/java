@@ -1,0 +1,52 @@
+package package1;
+
+import java.util.Scanner;
+
+public class Hinhchunhat {
+	private int Chieudai;
+	private int Chieurong;
+
+	public Hinhchunhat() {
+		
+	}
+	public Hinhchunhat(int cd, int cr) {
+		this.Chieudai = cd;
+		this.Chieurong = cr;
+	}
+	public void setChieudai(int cd) {
+		this.Chieudai = cd;
+	}
+	public int getChieudai() {
+		return Chieudai;
+	}
+	public void setChieurong(int cr) {
+		this.Chieurong = cr;
+	}
+	public int getChieurong() {
+		return Chieurong;
+	}
+	public int tinhDientich() {
+		return Chieudai * Chieurong;
+	}
+	public int tinhChuvi() {
+		return (Chieudai + Chieurong) * 2;
+	}
+	public int tinhDientichday() {
+		return Chieudai * Chieurong;
+	}
+	
+	public void nhap() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Nhap chieu dai: ") ; 
+        Chieudai=sc.nextInt();
+        System.out.println("Nhap chieu rong: ") ; 
+        Chieurong=sc.nextInt();
+    }
+
+    public void xuat() {
+        System.out.println("Chu vi hinh chu nhat: " + tinhChuvi() );
+        System.out.println("Dien tich hinh chu nhat: " + tinhDientich() );
+        System.out.println("__________________________________");
+
+    }
+}

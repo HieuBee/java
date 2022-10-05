@@ -1,0 +1,18 @@
+package Student22;
+
+import java.util.Scanner;
+
+public class Management {
+	public static void main(String[]args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Nhap so sinh vien: ");
+		int n = sc.nextInt();
+		Student2 s1[] = new Student2[n];
+		for (int i = 0 ; i < 0 ; i++) {
+			s1[i] = new Student2();
+			s1[i].insertData();
+		}
+		for (int i = 0 ; i < 0 ; i++)
+			s1[i].displayInformation();
+	}
+}

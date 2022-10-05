@@ -1,0 +1,22 @@
+package TH_2_1;
+
+public class Management {
+	public static void main(String[] args) {
+        Hinhtron ht1 = new Hinhtron();
+        ht1.setBankinh(7);
+        ht1.nhap();
+        ht1.xuat();
+
+        Hinhtron hinhtron = new Hinhtron(7);
+        hinhtron.xuat();
+
+        Hinhtru ht2 = new Hinhtru();
+        ht2.setChieudai(12);
+        ht2.nhap1();
+        ht2.xuat1();
+
+        Hinhtru hinhtru = new Hinhtru(17, 12);
+        hinhtru.xuat1();
+
+    }
+}

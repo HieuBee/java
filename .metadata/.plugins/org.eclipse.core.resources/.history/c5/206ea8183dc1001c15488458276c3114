@@ -1,0 +1,17 @@
+package Bai2_21_4;
+
+public class Circle implements IShapeColor {
+
+	public void getColor() {
+		System.out.println("Mau xanh");
+	}
+
+	public void draw() {
+		System.out.println("Hinh tron");
+	}
+
+	public void hienthi() {
+		System.out.println("__________");
+		System.out.println("Hinh tron & co mau xanh");
+	}
+}

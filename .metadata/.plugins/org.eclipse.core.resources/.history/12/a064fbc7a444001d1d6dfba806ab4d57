@@ -1,0 +1,45 @@
+package package2;
+
+import java.util.Scanner;
+
+import package1.Hinhchunhat;
+
+public class Hinhhop extends Hinhchunhat {
+	private int cao;
+	
+	public Hinhhop() {
+		
+	}
+	public Hinhhop(int c) {
+		super();
+		this.cao = c;
+	}
+	public void setCao(int c) {
+		this.cao = c;
+	}
+	public int getCao() {
+		return cao;
+	}
+	
+	public int tinhDientichxq() {
+		return tinhChuvi() * cao;
+	}
+	public int tinhDientichtp() {
+		return tinhDientich() * 2 + tinhDientichxq();
+	}
+	public int tinhThetich() {
+		return tinhDientichday() * cao;
+	}
+	
+	public void nhap1() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Nhap chieu cao : ") ; 
+        cao=sc.nextInt() ;
+    }
+
+    public void xuat1() {
+        System.out.println("Dien tich toan phan: " + tinhDientichtp() );
+        System.out.println("Dien tich xung quanh: " + tinhDientichxq() );
+        System.out.println("__________________________________");
+    }
+}

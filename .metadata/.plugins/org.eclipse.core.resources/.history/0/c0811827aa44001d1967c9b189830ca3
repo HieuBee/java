@@ -1,0 +1,35 @@
+package Buoi1TH1;
+
+public class HinhChuNhat {
+	private int Cd;
+	private int Cr;
+
+	public HinhChuNhat() {
+		
+	}
+	public HinhChuNhat(int Chieudai, int Chieurong) {
+		this.Cd = Chieudai;
+		this.Cr = Chieurong;
+	}
+	public void setChieudai(int Chieudai) {
+		this.Cd = Chieudai;
+	}
+	public int getChieudai() {
+		return Cd;
+	}
+	public void setChieurong(int Chieurong) {
+		this.Cr = Chieurong;
+	}
+	public int getChieurong() {
+		return Cr;
+	}
+	public void displayChuvi() {
+		int C = (Cd + Cr) * 2;
+		System.out.println("Chu vi hinh chu nhat la:" +C );
+	}
+	public void displayDientich() {
+		int S = Cd * Cr;
+		System.out.println("Dien tich hinh chu nhat la: " + S);
+	}
+
+}

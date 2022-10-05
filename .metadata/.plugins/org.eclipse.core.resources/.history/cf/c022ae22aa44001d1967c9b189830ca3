@@ -1,0 +1,17 @@
+package Student22;
+import java.util.Scanner;
+public class Student2 {
+		String name;
+		int age;
+		public void insertData() {
+			Scanner sc = new Scanner(System.in);
+			System.out.print("Nhap ten: ");
+			this.name = sc.nextLine();
+			System.out.println("Nhap tuoi: ");
+			this.age = sc.nextInt();
+		}
+		public void displayInformation() {
+			System.out.println("Ten: " + name + ", Tuoi: " + age) ;
+		}
+}
+

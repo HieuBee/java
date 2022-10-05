@@ -1,0 +1,13 @@
+package Buoi1TH1;
+
+public class Management_Buoi1 {
+	public static void main(String arg[]) {
+		students sv1 = new students();
+		sv1.initData("su minh dat", 18);
+		sv1.displayInformation();
+		sv1.setAge(38);
+		sv1.displayInformation();
+		students sv2 = new students("Nguyen Van Thien", 35);
+		sv2.displayInformation();
+	}
+}

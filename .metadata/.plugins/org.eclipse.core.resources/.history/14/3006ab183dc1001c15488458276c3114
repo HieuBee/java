@@ -1,0 +1,11 @@
+package Bai2_21_4;
+
+public class Management {
+	public static void main (String[] args) {
+		Rectangle rt = new Rectangle();
+		rt.hienthi();
+		
+		Circle c = new Circle();
+		c.hienthi();
+	}
+}

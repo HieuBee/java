@@ -1,0 +1,23 @@
+package Buoi1TH1;
+
+public class Management_Hinhtron {
+	public static void main(String arg[]) {
+		Hinhtron ht1 = new Hinhtron();
+		ht1.setBankinh(5);
+		ht1.displayChuvi();
+		ht1.displayDientich();
+		HinhChuNhat hcn1 = new HinhChuNhat();
+		hcn1.setChieudai(8);
+		hcn1.setChieurong(5);
+		hcn1.displayChuvi();
+		hcn1.displayDientich();
+		HinhTamGiac htg1 = new HinhTamGiac();
+		htg1.setCanha(5);
+		htg1.setCanhb(5);
+		htg1.setCanhc(7);
+		htg1.setCanhh(3.5);
+		htg1.displayChuvi();
+		htg1.displayDientich();
+		
+	}
+}

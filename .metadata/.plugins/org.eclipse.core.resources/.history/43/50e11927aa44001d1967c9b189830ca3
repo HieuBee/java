@@ -1,0 +1,52 @@
+package Buoi1TH1;
+
+public class HinhTamGiac {
+	private int a;
+	private int b;
+	private int c;
+	private int h;
+
+	public HinhTamGiac() {
+		
+	}
+	public HinhTamGiac(int ca, int cb, int cc, int ch) {
+		this.a = ca;
+		this.b = cb;
+		this.c = cc;
+		this.h = ch;
+	}
+	public void setCanha(int Canha) {
+		this.a = Canha;
+	}
+	public int getCanha(int Canha) {
+		return a;
+	}
+	public void setCanhb(int Canhb) {
+		this.b = Canhb;
+	}
+	public int getCanhb() {
+		return b;
+	}
+	public void setCanhc(int Canhc) {
+		this.c = Canhc;
+	}
+	public int getCanhc(int Canhc) {
+		return c;
+	}
+	public void setCanhh(double Canhh) {
+		this.h = (int) Canhh;
+	}
+	public int getCanhh() {
+		return h;
+	}
+	public void displayChuvi() {
+		int C = a + b + c;
+		System.out.println("Chu vi hinh tam giac la:" + C );
+	}
+	public void displayDientich() {
+		double S = (double) c * h;
+		System.out.println("Dien tich hinh chu nhat la: " + S);
+	}
+
+}
+

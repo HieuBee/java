@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Buoi5TH1.Hanghoa"/>
+    <fullyQualifiedTypeName name="package2.Hinhhop"/>
+    <fullyQualifiedTypeName name="Ktr.person"/>
+    <fullyQualifiedTypeName name="Ktr.giaovien"/>
+    <fullyQualifiedTypeName name="Ktr.nhanvien"/>
+    <fullyQualifiedTypeName name="Ktr.truongphong"/>
+    <fullyQualifiedTypeName name="TinhPI.Hinhtron"/>
+    <fullyQualifiedTypeName name="TinhPI.HInhchunhat"/>
+    <fullyQualifiedTypeName name="BaiTHend.Cong"/>
+    <fullyQualifiedTypeName name="Bai3_21_4.TwoWheeler"/>
+    <fullyQualifiedTypeName name="BaiTH1_25_4.News"/>
+    <fullyQualifiedTypeName name="BaiTH2_25_4.Sach"/>
+    <fullyQualifiedTypeName name="BaiTH2_25_4.SachGiaoKhoa"/>
+    <fullyQualifiedTypeName name="BaiTH2_25_4.Truyenkiemhiep"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="TH_4_1.Bailam"/>
+    <fullyQualifiedTypeName name="Bai1.Engineer"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.management.remote.SubjectDelegationPermission"/>
+    <fullyQualifiedTypeName name="BaiTH2.QuanLy"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="BaiTH2.DanhSachQuanLy"/>
+    <fullyQualifiedTypeName name="Arraylist3.Sach"/>
+    <fullyQualifiedTypeName name="Arraylist3.Truyen"/>
+    <fullyQualifiedTypeName name="Arraylist3.QuanLySach"/>
+    <fullyQualifiedTypeName name="Arraylist3.QuanLyTruyen"/>
+    <fullyQualifiedTypeName name="BaiLam.NhanVien"/>
+    <fullyQualifiedTypeName name="BaiLam.QuanLyNhanVien"/>
+    <fullyQualifiedTypeName name="BaiLam.TruongDonVi"/>
+    <fullyQualifiedTypeName name="BaiLam.QuanLyTruongPhong"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="VD.QuangLyDanhSachNhanVien"/>
+    <fullyQualifiedTypeName name="VD.QuangLyDanhSachTruongDonVi"/>
+    <fullyQualifiedTypeName name="VD.NhanVien"/>
+    <fullyQualifiedTypeName name="VD.TruongDonVi"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

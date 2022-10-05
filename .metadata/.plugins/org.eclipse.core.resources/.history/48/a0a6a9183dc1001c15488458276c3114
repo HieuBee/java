@@ -1,0 +1,17 @@
+package Bai2_21_4;
+
+public class Rectangle implements IColor, IShape{
+
+	public void draw() {
+		System.out.println("Hinh chu nhat");
+	}
+
+	public void getColor() {
+		System.out.println("Mau do");
+	}
+	
+	public void hienthi() {
+		System.out.println("__________");
+		System.out.println("Hinh chu nhat & co mau do");
+	}
+}
